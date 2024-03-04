@@ -43,7 +43,7 @@ function playRound(playerSelection){
     }
     //let arr=[computerScore,playerScore,str];
     const intermediateResult=document.querySelector('#intermediate-result');
-    intermediateResult.textContent=`${str}\nYour Score:${playerScore}\nComputer Score:${computerScore}`;
+    intermediateResult.textContent=`${str} |\n Your Score:${playerScore} |\n Computer Score:${computerScore}`;
     if(playerScore>=5 || computerScore>=5){
         const finalResult=document.querySelector('#final-result')
         if(playerScore>computerScore){
