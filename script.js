@@ -53,6 +53,7 @@ function playRound(playerSelection){
         }else{
             finalResult.textContent='The match is draw';
         }
+        intermediateResult.textContent='';
     }
 
 }
